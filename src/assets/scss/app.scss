@@ -1,0 +1,77 @@
+// Stili per il font Shantell Sans
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.my-bg-tasto {
+    background-color: #ffc200;
+}
+
+.my-bg-tasto:hover{
+    background-color: #ffdd6d;
+}
+
+// .btn:hover {
+//     background-color: #5ed9ff;
+// }
+
+
+// TABLET RESPONSIVE SCSS
+@media screen and (min-width: 768px) {
+
+
+    .my-padding-footer {
+
+        padding-left: 2.7rem;
+    }
+
+    .my-footer-container {
+
+        width: 75%;
+    }
+
+    .my-font-footer {
+        font-size: 24px;
+    }
+
+    .my-card-flex {
+        flex-direction: row;
+    }
+
+    .my-btn {
+
+        font-size: 14px;
+    }
+    
+}
+
+
+
+/* DESKTOP RESPONSIVE CSS  */
+@media screen and (min-width: 992px) {
+
+    li img {
+
+        width: 150px;
+    }
+
+
+    .my-padding-footer {
+
+        padding-left: 2.7rem;
+    }
+
+   
+
+    .my-container {
+
+        width: 81%;
+    }
+
+
+}
