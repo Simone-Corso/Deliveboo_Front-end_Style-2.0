@@ -45,7 +45,9 @@ a {
 }
 
 .custom_logo {
-    width: 150px;
+    padding-top: 15px;
+    margin-left: 15px;
+    width: 300px;
 }
 
 .navbar {
